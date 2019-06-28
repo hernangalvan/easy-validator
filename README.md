@@ -32,8 +32,8 @@ Example:
 
 ```
 easyValidator.init({
-    invalid_email_message:ObjStr.invalidUser,
-    empty_field_message:ObjStr.emptyField,
+    invalid_email_message: ObjStr.invalidUser,
+    empty_field_message: ObjStr.emptyField,
     event: 'keyup',
 });
 ```

@@ -7,19 +7,15 @@ Add the attribute easy-validate to the form you want to apply validation.
 
 Initialize the plugin:
 
-'''
 $(function() {
     easyValidator.init();
 });
-'''
 
-Prevent form submiting using...
+Prevent form submition using...
 
-'''
 if(!easyValidator.isValidForm()){
     return false;
 }
-'''
 
 ... in the form submit event.
 
@@ -31,13 +27,11 @@ event: The event that triggers the validation in a field. Default is 'blur'.
 
 Example:
 
-'''
 easyValidator.init({
     invalid_email_message:ObjStr.invalidUser,
     empty_field_message:ObjStr.emptyField,
     event: 'keyup',
 });
-'''
 
 
 

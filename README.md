@@ -24,11 +24,10 @@ if(!easyValidator.isValidForm()){
 
 ## Options
 
-```
-invalid_email_message: The message displayed under the field when email validation fails. Default is 'Email is invalid'.
-empty_field_message: The message displayed under the field when required validation fails. Default is 'Field is empty'.
-event: The event that triggers the validation in a field. Default is 'blur'. 
-```
+- invalid_email_message: The message displayed under the field when email validation fails. Default is 'Email is invalid'.
+- empty_field_message: The message displayed under the field when required validation fails. Default is 'Field is empty'.
+- event: The event that triggers the validation in a field. Default is 'blur'. 
+
 Example:
 
 ```
